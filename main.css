@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(0deg, rgb(12, 12, 12) , rgb(60, 57, 57));
+    border: 15px solid;
+    border-image: linear-gradient(0deg, #12c2e9, #c471ed, #f64f59) 1;
+    width: 500px;
+    margin-left: 416px;
+    text-align: center;
+}
+body {
+    background-color: black;
+}
+#smile img {
+    height: 50px;
+    width: 50px;
+}
+
+
+#board {
+    width: 500px;
+    height: 500px;
+    border: 15px solid;
+    border-image: linear-gradient(0deg, #12c2e9, #c471ed, #f64f59) 1;
+    background: linear-gradient(0deg, black , rgb(45, 43, 43));
+    margin: 0 auto;
+    /* will make the tiles not vertical */
+    display: flex;
+    flex-wrap: wrap;
+}
+#board div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid  #c471ed;
+    
+
+    /* inside the tiles */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* change color of numbers there can be 8 */
+
